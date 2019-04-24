@@ -1,6 +1,14 @@
 
 def levitation_quiz
-	#your code here
+  
+	question = 'What is the spell that enacts levitation?'
+	answer = gets.chomp
+	
+	until answer == 'Wingardium Leviosa'
+	puts question
+	end 
+	
+  puts 	"You passed the quiz!"
 end
 
 
